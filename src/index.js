@@ -4,6 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
-ReactDOM.render(element, document.getElementById('root'));
+
+ReactDOM.render(<App></App>, document.getElementById('root'));
 serviceWorker.unregister();
